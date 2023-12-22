@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"33c93a12ecce1722","type":"text","text":"调用连接，传入请求id，发送响应","x":-560,"y":240,"width":250,"height":60},
+		{"id":"77877ec0738b364d","type":"text","text":"外部请求","x":-720,"y":80,"width":250,"height":60},
+		{"id":"f24933900fd5f7ac","type":"text","text":"获取请求id，处理业务","x":-360,"y":-15,"width":250,"height":60},
+		{"id":"27a6c1df040bf7cd","type":"text","text":"生成请求id","x":-180,"y":-380,"width":140,"height":60},
+		{"id":"9aad5fe690a4f82c","x":-140,"y":-150,"width":260,"height":90,"color":"2","type":"text","text":"新建线程（或使用线程池），设定超时时间（处理阻塞），注册回调"},
+		{"id":"1ea29d054656fa7e","type":"text","text":"初始化连接","x":-640,"y":-200,"width":250,"height":60},
+		{"id":"4857675e5cae70a0","x":-660,"y":400,"width":250,"height":60,"type":"text","text":"接收响应"},
+		{"id":"4bce0250b9c729fb","x":-145,"y":240,"width":210,"height":60,"type":"text","text":"在缓冲区根据请求id暂存响应报文（？）"},
+		{"id":"ad4812002b015658","x":120,"y":-380,"width":250,"height":60,"type":"text","text":"提前被回调激活，返回响应"},
+		{"id":"82b5c8c6f5113f33","x":120,"y":80,"width":250,"height":60,"type":"text","text":"超时查询缓冲区，最后抛异常"}
+	],
+	"edges":[
+		{"id":"e13292206787cfae","fromNode":"77877ec0738b364d","fromSide":"right","toNode":"f24933900fd5f7ac","toSide":"left"},
+		{"id":"c3848ae7c14747b9","fromNode":"1ea29d054656fa7e","fromSide":"bottom","toNode":"77877ec0738b364d","toSide":"top","label":"接收请求"},
+		{"id":"92d94089c3c66190","fromNode":"f24933900fd5f7ac","fromSide":"bottom","toNode":"33c93a12ecce1722","toSide":"top","label":"给出响应"},
+		{"id":"3a5c2e2ef7f36fa1","fromNode":"1ea29d054656fa7e","fromSide":"right","toNode":"27a6c1df040bf7cd","toSide":"left","label":"发起请求"},
+		{"id":"4e38b9bca349026b","fromNode":"27a6c1df040bf7cd","fromSide":"bottom","toNode":"9aad5fe690a4f82c","toSide":"top"},
+		{"id":"1ba5f12859b3c9e7","fromNode":"4857675e5cae70a0","fromSide":"right","toNode":"4bce0250b9c729fb","toSide":"bottom"},
+		{"id":"e608b4ae2068667a","fromNode":"4bce0250b9c729fb","fromSide":"top","toNode":"9aad5fe690a4f82c","toSide":"bottom","label":"根据请求id回调激活线程"},
+		{"id":"6cb51ee0c5890bd1","fromNode":"9aad5fe690a4f82c","fromSide":"right","toNode":"ad4812002b015658","toSide":"bottom"},
+		{"id":"a357ba306c568af0","fromNode":"9aad5fe690a4f82c","fromSide":"right","toNode":"82b5c8c6f5113f33","toSide":"top"},
+		{"id":"ff200130a4c835df","fromNode":"1ea29d054656fa7e","fromSide":"left","toNode":"4857675e5cae70a0","toSide":"left"}
+	]
+}
