@@ -32,3 +32,6 @@ git add *.java
 ```bash
 git commit -m <commit message>
 ```
+## 参数说明
+- -m: 用于标注提交说明
+- -a: 自动将已被git跟踪的文件的更改纳入提交。但是，本次更改新创建的文件不会被该命令影响而自动提交。

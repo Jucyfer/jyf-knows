@@ -19,6 +19,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2b259fb8b022b4bd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "attachments/progit-cn.pdf"
+              }
+            }
           }
         ]
       }
@@ -158,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,8 +189,8 @@
   },
   "active": "a44d6a52b1ae85ef",
   "lastOpenFiles": [
-    "git/git常用命令.md",
     "attachments/progit-cn.pdf",
+    "git/git常用命令.md",
     "rocketmq/rocketmq部署与启停.md",
     "java/双工异步转同步通信设计.canvas",
     "git",
