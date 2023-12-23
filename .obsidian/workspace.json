@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "96e7c0086574bb2a",
+        "id": "ee7cab728980a603",
         "type": "tabs",
         "children": [
           {
-            "id": "3196375bf21134f3",
+            "id": "1eba4daef579e6ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/关于Linux删除文件但磁盘空间未释放的问题.md",
+                "file": "git/git常用命令.md",
                 "mode": "preview",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -82,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 725.5
+    "width": 273.5
   },
   "right": {
     "id": "f7f347c89b02fa88",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/关于Linux删除文件但磁盘空间未释放的问题.md",
+                "file": "git/git常用命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/关于Linux删除文件但磁盘空间未释放的问题.md",
+                "file": "git/git常用命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/关于Linux删除文件但磁盘空间未释放的问题.md"
+                "file": "git/git常用命令.md"
               }
             }
           },
@@ -157,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,32 +168,34 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "publish:发布更改": false,
-      "workspaces:管理工作区布局": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
       "audio-recorder:开始/结束录音": false,
-      "random-note:开始漫游笔记": false
+      "workspaces:管理工作区布局": false,
+      "publish:发布更改": false
     }
   },
-  "active": "3196375bf21134f3",
+  "active": "1eba4daef579e6ef",
   "lastOpenFiles": [
-    "linux/未命名.md",
-    "linux/关于Linux删除文件但磁盘空间未释放的问题.md",
-    "java/双工异步转同步通信设计.canvas",
     "rocketmq/rocketmq部署与启停.md",
+    "git/git常用命令.md",
+    "attachments/progit-cn.pdf",
+    "java/双工异步转同步通信设计.canvas",
+    "git",
+    "attachments",
+    "attachment",
+    "linux/关于Linux删除文件但磁盘空间未释放的问题.md",
     "rocketmq/rocketmq broker 启动报错.md",
+    "linux/未命名.md",
     "java/未命名.md",
     "linux",
     "c++",
     "python",
     "java/spring/springboot",
     "java/spring",
-    "attachments",
     "java",
-    "redis",
     "2023-12-17.md",
-    "rocketmq.md",
-    "rocketmq"
+    "rocketmq.md"
   ]
 }
